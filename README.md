@@ -19,6 +19,7 @@ To run the program (on a Mac):
 
         git clone https://github.com/nikhilajjarapu/random-debate-case-retriever.git
 2) Navigate into the directory using [cd](http://www.macworld.com/article/2042378/master-the-command-line-navigating-files-and-folders.html)
+
 3) Type into Terminal:
 
         python3 debate.py
