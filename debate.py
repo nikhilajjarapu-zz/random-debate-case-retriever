@@ -3,6 +3,7 @@ import random
 import re
 from bs4 import BeautifulSoup
 import os
+
 os.system('clear')
 
 cdhtml = urllib.request.urlopen('http://circuitdebater.wikispaces.com/').read()
