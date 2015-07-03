@@ -3,6 +3,11 @@ import random
 import re
 from bs4 import BeautifulSoup
 import os
+import sys
+
+if sys.version_info[:3] < (3,2,0):
+    print('Requires Python >= 3.2.0')
+    sys.exit(1)
 
 os.system('clear')
 
