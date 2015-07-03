@@ -11,7 +11,7 @@ To install BeautifulSoup4 using [pip](https://pip.pypa.io/en/latest/installing.h
 
         sudo pip install beautifulsoup4
         
-To run the program (on a Mac) type:
+To run the program (on a Mac) type into Terminal:
 
         python3 debate.py
 
