@@ -14,3 +14,5 @@ To install BeautifulSoup4 using [pip](https://pip.pypa.io/en/latest/installing.h
 To run the program (on a Mac) type:
 
         python3 debate.py
+
+Check out [Running Python on Windows] (https://docs.python.org/3/using/windows.html) to find out how to run this on Windows.
