@@ -4,6 +4,7 @@ import re
 from bs4 import BeautifulSoup
 import os
 os.system('clear')
+
 cdhtml = urllib.request.urlopen('http://circuitdebater.wikispaces.com/').read()
 soup1 = BeautifulSoup(cdhtml,"html.parser")
 orgpagelinks = soup1.find_all("a", {"class": "wiki_link"})	
@@ -31,8 +32,8 @@ while flag == False:
 	file = random.choice(doclinks)
 	if '/file/view' in file['href']:
 		debatecase = urllib.request.urlopen('http://circuitdebater.wikispaces.com' + file['href'])
-		localfile = open('debatecase.docx','wb')
+		localfile = open(file['title'],'wb')
 		localfile.write(debatecase.read())
 		localfile.close()
-		os.system('open debatecase.docx')
+		os.system('open ' + '\'' + file['title'] + '\'')
 		flag = True
